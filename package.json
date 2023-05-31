@@ -1,0 +1,27 @@
+{
+  "name": "node_project", 
+  "version": "1.0.0", 
+  "description": "Experimenting with Node.js and TypeScript",
+  "main": "dist/nodeExpTS.js",
+  "scripts": {
+    "start": "tsc && node dist/nodeExpTS.js", 
+    "lint": "eslint . --ext .ts", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }, 
+  "author": "Joseph Thurlow",
+  "dependencies": {
+    "express": "^4.17.1",
+    "formidable": "^2.1.1",
+    "mv": "github:andrewrk/node-mv",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.1",
+    "upper-case": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "typescript": "^5.0.4"
+  }
+}
